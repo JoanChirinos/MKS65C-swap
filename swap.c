@@ -36,12 +36,12 @@ int main() {
   //pop arr2 with els from arr1
   int * p2; //pointer for arr2
 
-  p1 = arr1;
+  p1 = arr1 + 9;
   p2 = arr2;
 
   for (ctr = 0; ctr < 10; ctr++) {
     * p2 = * p1;
-    p1++;
+    p1--;
     p2++;
   }
 
